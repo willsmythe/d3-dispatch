@@ -1,5 +1,7 @@
 # d3-dispatch
 
+[![Build Status](https://dev.azure.com/d3/d3/_apis/build/status/d3.d3-dispatch)](https://dev.azure.com/d3/d3/_build/definition?definitionId=3)
+
 Dispatching is a convenient mechanism for separating concerns with loosely-coupled code: register named callbacks and then call them with arbitrary arguments. A variety of D3 components, such as [d3-request](https://github.com/d3/d3-request), use this mechanism to emit events to listeners. Think of this like Node’s [EventEmitter](https://nodejs.org/api/events.html), except every listener has a well-defined name so it’s easy to remove or replace them.
 
 For example, to create a dispatch for *start* and *end* events:
